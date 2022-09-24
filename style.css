@@ -1,0 +1,166 @@
+.page {
+    margin: 0;
+}
+.nav {
+    background: #fff;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+}
+.btn__lang {
+    font-size: 10px;
+    border: 1px solid #03d1af;
+    color: #fff;
+    border-radius: 30px!important;
+    padding: 10px;
+    background: #03d1af!important;
+    cursor: pointer;
+}
+.btn__friends {
+    font-size: 10px;
+    border: 1px solid #03d1af;
+    color: #fff;
+    border-radius: 30px!important;
+    padding: 10px;
+    background: #03d1af!important;
+    cursor: pointer;
+}
+.btn__connect-account {
+    font-size: 10px;
+    border: 1px solid #03d1af;
+    color: #fff;
+    border-radius: 30px!important;
+    padding: 10px;
+    background: #50bfff!important;
+    cursor: pointer;
+}
+.images {
+
+}
+.images__logo {
+    margin-bottom: -5px;
+    height: 240px;
+    width: 100%;
+}
+.orange {
+    display: flex;
+    align-items: center;
+    background: #dba34e73;
+    overflow: hidden;
+    height: 40px;
+}
+.marquee{
+    font-size: 14px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    padding: 24px 0;
+    color: #fff;
+    white-space: nowrap;
+    animation: marquee 7.5s infinite linear;
+    color: #874d06;
+}
+.marquee:after{
+    content: "LONDON - PARIS - SYDNEY - TOKYO - NEW YORK - BERLIN - ROME";
+}
+@keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+}
+.main {
+    padding: 10px;
+    border: 1px;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 12%), 0 0 6px rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 4pxrgba(0,0,0,.12),0 0 6pxrgba(0,0,0,.04);
+    border-radius: 15px;
+    margin: 10px;
+}
+.main__span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.main__border {
+    border: 1px solid black;
+}
+.main__vip {
+    padding: 10px;
+    border: 1px;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 12%), 0 0 6px rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 4pxrgba(0,0,0,.12),0 0 6pxrgba(0,0,0,.04);
+    border-radius: 15px;
+    margin: 10px;
+    background: #c0c0c073;
+}
+.main__btn {
+    font-size: 10px;
+    border: 0;
+    color: #fff;
+    border-radius: 30px!important;
+    padding: 10px;
+    background: #10ad73!important;
+    cursor: pointer;
+    width: 95%;
+    text-align: center;
+    margin-left: 10px;
+}
+.vip__title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e95600ba;
+    font-size: 17px;
+}
+.vip__p {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vip__pp {
+    margin: 0;
+    width: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vip__pip {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.vip__wallet {
+    font-size: 13px;
+    width: 290px;
+}
+.vip__wallet::placeholder {
+    color: black;
+    font-weight: 600;
+}
+.footer__t {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.footer__p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cf560f;
+}
+.footer__t-t {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    padding: 10px;
+    border: 1px;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 12%), 0 0 6px rgb(0 0 0 / 4%);
+    box-shadow: 0 2px 4pxrgba(0,0,0,.12),0 0 6pxrgba(0,0,0,.04);
+    border-radius: 15px;
+    margin: 10px;
+}
+@media (max-width: 930px) {
+    .footer {
+        margin: 48px 19px 36px;
+    }
+
+}
