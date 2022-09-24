@@ -36,9 +36,6 @@
     background: #50bfff!important;
     cursor: pointer;
 }
-.images {
-
-}
 .images__logo {
     margin-bottom: -5px;
     height: 240px;
@@ -132,8 +129,13 @@
     font-size: 20px;
 }
 .vip__wallet {
+    color: black;
     font-size: 13px;
     width: 290px;
+    border: 1px solid #d10303   ;
+    border-radius: 30px!important;
+    padding: 10px;
+    margin: auto;
 }
 .vip__wallet::placeholder {
     color: black;
